@@ -1,0 +1,15 @@
+<view class='searchbar_view'>
+  <view class="searchbar">
+    <image class='searchimg' src='/image/search_black.png'></image>
+    <input class="searchinput" placeholder="请输入搜索关键词" value="{{keywords}}" bindblur='setKeywords' bindconfirm="searchGoods" confirm-type="搜索"></input>
+    <view class='searchbutton' bindtap='searchGoods'>搜索</view>
+  </view>
+</view>
+<view class="placeholder"></view>
+<swiper indicator-dots="true" autoplay="true" interval="5000" duration="300">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150" />
+    </swiper-item>
+  </block>
+</swiper>
