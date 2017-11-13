@@ -1,15 +1,36 @@
+.block {
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid lightgray;
+  margin-top: 10rpx;
+}
+
+.block_title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: gray;
+  background-color: #fff;
+}
+
+.body {
+  background-color: #eee;
+}
+
 .placeholder {
-  height: 110rpx;
+  height: 100rpx;
 }
 
 .searchbar_view {
   background: #f38200;
   z-index: 100;
   padding: 20rpx 0;
-  position: fixed;
-  top: 0;
+  /* position: fixed;
+  top: 0; */
   width: 100%;
 }
+
 .searchbar {
   display: flex;
   background: #fff;
@@ -45,4 +66,89 @@
 
 .slide-image {
   width: 100%;
+}
+
+.topline {
+  display: flex;
+  height: 80rpx;
+  line-height: 80rpx;
+  background-color: #fff;
+  white-space: nowrap;
+  font-size: 0.8rem;
+}
+
+.topline_title {
+  color: red;
+  padding: 0 10rpx;
+  font-weight: bold;
+}
+
+.topline_content {
+  color: dimgray;
+  flex-grow: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.classification {
+  padding-bottom: 0.5rem;
+}
+
+.class {
+  width: 20%;
+  float: left;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.class_img {
+  width: 75rpx;
+  height: 75rpx;
+}
+
+.class_title {
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.hotsale_scroll {
+  width: 750rpx;
+  white-space: nowrap;
+}
+
+.hotsale_goods {
+  width: 217rpx;
+  background-color: #fff;
+  margin: 10rpx 0 10rpx 10rpx;
+  padding: 10rpx;
+  display: inline-block;
+}
+
+.hotsale_img {
+  width: 217rpx;
+  height: 217rpx;
+}
+
+.goods_title {
+  font-size: 0.9rem;
+  white-space: normal;
+  display: -webkit-box;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.goods_spec {
+  font-size: 0.8rem;
+  color: gray;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.goods_price {
+  color: #f38200;
+  font-size: 0.9rem;
 }

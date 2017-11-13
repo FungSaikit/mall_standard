@@ -5,7 +5,10 @@ Page({
       'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
       'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
     ],
-    keywords: ""
+    keywords: "",
+    classes: [
+      
+    ]
   }, 
   setKeywords: function (e) {
     this.setData({
