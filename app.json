@@ -1,12 +1,44 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/cart/cart",
+    "pages/personal_center/personal_center",
+    "pages/product_list/product_list",
+    "pages/product_details/product_details"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#f38200",
     "navigationBarTitleText": "旺图思瑞",
     "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tabBar/home.png", 
+        "selectedIconPath": "images/tabBar/home_selected.png"
+      },
+      {
+        "pagePath": "pages/product_list/product_list",
+        "text": "分类查找",
+        "iconPath": "images/tabBar/search.png",
+        "selectedIconPath": "images/tabBar/search_selected.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "images/tabBar/cart.png",
+        "selectedIconPath": "images/tabBar/cart_selected.png"
+      },
+      {
+        "pagePath": "pages/personal_center/personal_center",
+        "text": "个人中心",
+        "iconPath": "images/tabBar/personalcenter.png",
+        "selectedIconPath": "images/tabBar/personalcenter_selected.png"
+      }
+    ],
+    "selectedColor": "#f38200"
   }
 }

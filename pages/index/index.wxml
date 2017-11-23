@@ -6,8 +6,7 @@
       <view class="searchbutton" bindtap="searchGoods">搜索</view>
     </view>
   </view>
-  <!-- <view class="placeholder"></view> -->
-  <swiper indicator-dots="true" autoplay="true" interval="5000" duration="300">
+  <swiper indicator-dots="true" autoplay="true" interval="5000" duration="300" indicator-active-color="#f38200">
     <block wx:for="{{imgUrls}}">
       <swiper-item>
         <image src="{{item}}" class="slide-image" width="355" height="150" />
@@ -21,74 +20,110 @@
 
   <view class="classification block">
     <view class="class">
-      <image class="class_img" src="/images/class.png" mode='widthFix'></image>
+      <image class="class_img" src="/images/class/01.png" mode='widthFix'></image>
       <view class="class_title">分类</view>
     </view>
     <view class="class">
-      <image class="class_img" src="/images/class.png" mode='widthFix'></image>
+      <image class="class_img" src="/images/class/02.png" mode='widthFix'></image>
       <view class="class_title">分类</view>
     </view>
     <view class="class">
-      <image class="class_img" src="/images/class.png" mode='widthFix'></image>
+      <image class="class_img" src="/images/class/03.png" mode='widthFix'></image>
       <view class="class_title">分类</view>
     </view>
     <view class="class">
-      <image class="class_img" src="/images/class.png" mode='widthFix'></image>
+      <image class="class_img" src="/images/class/04.png" mode='widthFix'></image>
       <view class="class_title">分类</view>
     </view>
     <view class="class">
-      <image class="class_img" src="/images/class.png" mode='widthFix'></image>
+      <image class="class_img" src="/images/class/05.png" mode='widthFix'></image>
       <view class="class_title">分类</view>
     </view>
     <view class="class">
-      <image class="class_img" src="/images/class.png" mode='widthFix'></image>
+      <image class="class_img" src="/images/class/06.png" mode='widthFix'></image>
       <view class="class_title">分类</view>
     </view>
     <view class="class">
-      <image class="class_img" src="/images/class.png" mode='widthFix'></image>
+      <image class="class_img" src="/images/class/07.png" mode='widthFix'></image>
       <view class="class_title">分类</view>
     </view>
     <view class="class">
-      <image class="class_img" src="/images/class.png" mode='widthFix'></image>
+      <image class="class_img" src="/images/class/08.png" mode='widthFix'></image>
       <view class="class_title">分类</view>
     </view>
     <view class="class">
-      <image class="class_img" src="/images/class.png" mode='widthFix'></image>
+      <image class="class_img" src="/images/class/09.png" mode='widthFix'></image>
       <view class="class_title">分类</view>
     </view>
     <view class="class">
-      <image class="class_img" src="/images/class.png" mode='widthFix'></image>
+      <image class="class_img" src="/images/class/10.png" mode='widthFix'></image>
       <view class="class_title">分类</view>
     </view>
   </view>
 
   <view class="block" style="background-color: #f9f9f9;">
-    <view class="block_title">——  热销排行榜  ——</view>
-    <scroll-view scroll-x class="hotsale_scroll">
-      <view class="hotsale_goods">
-        <image class="hotsale_img" src="/images/goods.jpg"></image>
-        <view class="goods_title">旺图思瑞微信小程序标准版旺图思瑞微信小程序标准版</view>
-        <view class="goods_spec">型号: 标准版本1</view>
-        <view class="goods_price">¥ 3800</view>
-      </view>
-      <view class="hotsale_goods">
-        <image class="hotsale_img" src="/images/goods.jpg"></image>
-        <view class="goods_title">旺图思瑞微信小程序标准版旺图思瑞微信小程序标准版</view>
-        <view class="goods_spec">型号: 标准版本1</view>
-        <view class="goods_price">¥ 3800</view>
-      </view>
-      <view class="hotsale_goods">
-        <image class="hotsale_img" src="/images/goods.jpg"></image>
-        <view class="goods_title">旺图思瑞微信小程序标准版旺图思瑞微信小程序标准版</view>
-        <view class="goods_spec">型号: 标准版本1</view>
-        <view class="goods_price">¥ 3800</view>
-      </view>
-      <view class="hotsale_goods">
-        <image class="hotsale_img" src="/images/goods.jpg"></image>
-        <view class="goods_title">旺图思瑞微信小程序标准版旺图思瑞微信小程序标准版</view>
-        <view class="goods_spec">型号: 标准版本1</view>
-        <view class="goods_price">¥ 3800</view>
-      </view>
-    </scroll-view>
+    <view class="block_title">—— 热销排行榜 ——</view>
+    <swiper class="hotsale_swiper" autoplay="true" interval="5000" duration="300">
+      <swiper-item>
+        <view class="hotsale_goods">
+          <image class="hotsale_img" src="/images/goods.jpg"></image>
+          <view class="goods_info">
+            <view class="goods_title">旺图思瑞微信小程序标准版旺图思瑞微信小程序标准版</view>
+            <view class="goods_spec">型号: 标准版本1</view>
+            <view class="goods_price">¥ 3800</view>
+          </view>
+        </view>
+        <view class="hotsale_goods">
+          <image class="hotsale_img" src="/images/goods.jpg"></image>
+          <view class="goods_info">
+            <view class="goods_title">旺图思瑞微信小程序标准版旺图思瑞微信小程序标准版</view>
+            <view class="goods_spec">型号: 标准版本1</view>
+            <view class="goods_price">¥ 3800</view>
+          </view>
+        </view>
+        <view class="hotsale_goods">
+          <image class="hotsale_img" src="/images/goods.jpg"></image>
+          <view class="goods_info">
+            <view class="goods_title">旺图思瑞微信小程序标准版旺图思瑞微信小程序标准版</view>
+            <view class="goods_spec">型号: 标准版本1</view>
+            <view class="goods_price">¥ 3800</view>
+          </view>
+        </view>
+      </swiper-item>
+      <swiper-item>
+        <view class="hotsale_goods">
+          <image class="hotsale_img" src="/images/goods.jpg"></image>
+          <view class="goods_info">
+            <view class="goods_title">旺图思瑞微信小程序标准版旺图思瑞微信小程序标准版</view>
+            <view class="goods_spec">型号: 标准版本1</view>
+            <view class="goods_price">¥ 3800</view>
+          </view>
+        </view>
+        <view class="hotsale_goods">
+          <image class="hotsale_img" src="/images/goods.jpg"></image>
+          <view class="goods_info">
+            <view class="goods_title">旺图思瑞微信小程序标准版旺图思瑞微信小程序标准版</view>
+            <view class="goods_spec">型号: 标准版本1</view>
+            <view class="goods_price">¥ 3800</view>
+          </view>
+        </view>
+        <view class="hotsale_goods">
+          <image class="hotsale_img" src="/images/goods.jpg"></image>
+          <view class="goods_info">
+            <view class="goods_title">旺图思瑞微信小程序标准版旺图思瑞微信小程序标准版</view>
+            <view class="goods_spec">型号: 标准版本1</view>
+            <view class="goods_price">¥ 3800</view>
+          </view>
+        </view>
+      </swiper-item>
+    </swiper>
+  </view>
+  <view class="block1">
+    <view class="flex">
+
+    </view>
+    <view class="flex">
+      
+    </view>
   </view>
 </view>

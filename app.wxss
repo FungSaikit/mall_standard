@@ -8,3 +8,30 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+
+.body {
+  background-color: #eee;
+}
+
+.block {
+  display: block;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid lightgray;
+  margin-top: 10rpx;
+}
+
+.flex {
+  display: flex;
+  display: -webkit-flex;
+}
+
+.flex-grow {
+  flex-grow: 1;
+  -webkit-flex-grow: 1;
+}
+
+.blocktitle {
+  padding: 10rpx;
+  color: #f38200;
+}

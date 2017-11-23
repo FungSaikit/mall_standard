@@ -1,0 +1,58 @@
+.personalcenter_top {
+  width: 750rpx;
+  height: 400rpx;
+  overflow: hidden;
+  position: relative;
+}
+
+.bg {
+  width: 750rpx;
+  height: 400rpx;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.usericon {
+  width: 200rpx;
+  height: 200rpx;
+  border: 0.1rem solid #fff;
+  border-radius: 200rpx;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 50rpx 275rpx;
+}
+
+.username {
+  color: #000;
+  position: absolute;
+  top: 300rpx;
+  width: 750rpx;
+  color: #fff;
+  text-align: center;
+}
+
+.blockline {
+  border-top: 0.1rem solid #eee;
+}
+
+.menu_item {
+  width: 0;
+  flex-grow: 1;
+  font-size: 0.8rem;
+  border-right: 0.1rem solid #eee;
+  text-align: center;
+  color: dimgray;
+  padding: 0.5rem;
+}
+
+.menu_img {
+  height: 50rpx;
+  width: 50rpx;
+}
+
+.menu_title {
+  display: block;
+}

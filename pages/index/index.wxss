@@ -1,21 +1,9 @@
-.block {
-  display: inline-block;
-  width: 100%;
-  background-color: #fff;
-  border-bottom: 1px solid lightgray;
-  margin-top: 10rpx;
-}
-
 .block_title {
   display: block;
   width: 100%;
   text-align: center;
   color: gray;
   background-color: #fff;
-}
-
-.body {
-  background-color: #eee;
 }
 
 .placeholder {
@@ -94,6 +82,12 @@
   padding-bottom: 0.5rem;
 }
 
+.classification:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
 .class {
   width: 20%;
   float: left;
@@ -102,8 +96,8 @@
 }
 
 .class_img {
-  width: 75rpx;
-  height: 75rpx;
+  width: 100rpx;
+  height: 100rpx;
 }
 
 .class_title {
@@ -117,20 +111,27 @@
 }
 
 .hotsale_goods {
-  width: 217rpx;
+  width: 240rpx;
+  height: auto;
   background-color: #fff;
-  margin: 10rpx 0 10rpx 10rpx;
-  padding: 10rpx;
+  margin: 10rpx 5rpx;
   display: inline-block;
+  border-radius: 0.2rem;
 }
 
 .hotsale_img {
-  width: 217rpx;
-  height: 217rpx;
+  width: 240rpx;
+  height: 240rpx;
+  border-radius: 0.2rem
+}
+
+.goods_info {
+  padding: 5rpx;
 }
 
 .goods_title {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
+  color: #646464;
   white-space: normal;
   display: -webkit-box;
   word-break: break-all;
@@ -151,4 +152,13 @@
 .goods_price {
   color: #f38200;
   font-size: 0.9rem;
+}
+
+.webview {
+  width: 750rpx;
+  height: 1000rpx;
+}
+
+.hotsale_swiper {
+  height: 460rpx;
 }
