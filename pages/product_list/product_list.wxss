@@ -1,9 +1,85 @@
 /* pages/product_list/product_list.wxss */
 .searchbar {
   width: 100%;
-  height: 2.5rem;
+  height: 2.15rem;
   position: fixed;
   top: 0;
-  background-color: rgba(255, 255, 255, 0.99);
+  background-color: #f38200;
+  /* border-top: 1px solid white; */
+}
+
+.sortsearch {
+  width: 1.8rem;
+  height: 1.8rem;
+  padding: 0 0.5rem 0.35rem 0.5rem;
+}
+
+.search_input {
+  height: 1.8rem;
+  padding: 0 0.5rem;
+  margin: 0 0 0.35rem 0;
+  flex-grow: 1;
+  border-radius: 1rem;
+  background-color: #fff;
+}
+
+.product {
+  width: 100%;
+  height: 6rem;
+  margin-top: 0.2rem;
   border-bottom: 1px solid lightgray;
+  background-color: #fff;
+}
+
+.product_checkbox {
+  line-height: 6rem;
+  padding-left: 0.5rem;
+}
+
+.cart_img_view {
+  height: 6rem;
+  width: 6rem;
+}
+
+.cart_img_view image {
+  width: 5rem;
+  height: 5rem;
+  margin: 0.5rem;
+}
+
+.cart_product_info {
+  padding: 0.5rem;
+}
+
+.product_title {
+  display: -webkit-box;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  height: 2.5rem;
+  line-height: 1.25rem;
+  color: dimgray;
+}
+
+.product_spec {
+  margin-top: 0.25rem;
+  font-size: 0.8rem;
+  color: gray;
+  height: 1rem;
+  line-height: 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.product_price {
+  font-size: 1rem;
+  color: red;
+  height: 1.25rem;
+  line-height: 1.25rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }

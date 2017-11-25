@@ -124,6 +124,7 @@
   border-right: 1px solid lightgray;
   width: 5rem;
   height: 1.5rem;
+  z-index: 0;
 }
 
 .product_delete {

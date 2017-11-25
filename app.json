@@ -1,11 +1,10 @@
 {
   "pages":[
-    "pages/cart/cart",
-    "pages/product_list/product_list",
     "pages/index/index",
+    "pages/product_list/product_list",
+    "pages/cart/cart",
     "pages/personal_center/personal_center",
     "pages/product_details/product_details"
-    
   ],
   "window":{
     "backgroundTextStyle":"light",

@@ -1,2 +1,79 @@
-<view class='searchbar'></view>
-<view class='placeholder_low'></view>
+<view class='searchbar flex'>
+  <image class='sortsearch' src='/images/search/class_white.png'></image>
+  <input class='search_input' placeholder='请输入搜索关键词'></input>
+  <image class='sortsearch' src='/images/search_white.png'></image>
+</view>
+<view class='placeholder_low' style='height: 2.15rem;'></view>
+
+<view class='product_list'>
+  <view class='product flex'>
+    <view class="cart_img_view">
+      <image src='/images/goods.jpg' />
+    </view>
+    <view class='cart_product_info'>
+      <view class='product_title'>旺图思瑞微信小程序标准版1旺图思瑞微信小程序标准版1旺图思瑞微信小程序标准版1旺图思瑞微信小程序标准版1</view>
+      <view class='product_spec'>规格: 标准版1</view>
+      <view class='product_price'>¥ 3899.99</view>
+    </view>
+  </view>
+  <view class='product flex'>
+    <view class="cart_img_view">
+      <image src='/images/goods.jpg' />
+    </view>
+    <view class='cart_product_info'>
+      <view class='product_title'>旺图思瑞微信小程序标准版1旺图思瑞微信小程序标准版1旺图思瑞微信小程序标准版1旺图思瑞微信小程序标准版1</view>
+      <view class='product_spec'>规格: 标准版1</view>
+      <view class='product_price'>¥ 3899.99</view>
+    </view>
+  </view>
+  <view class='product flex'>
+    <view class="cart_img_view">
+      <image src='/images/goods.jpg' />
+    </view>
+    <view class='cart_product_info'>
+      <view class='product_title'>旺图思瑞微信小程序标准版1旺图思瑞微信小程序标准版1旺图思瑞微信小程序标准版1旺图思瑞微信小程序标准版1</view>
+      <view class='product_spec'>规格: 标准版1</view>
+      <view class='product_price'>¥ 3899.99</view>
+    </view>
+  </view>
+  <view class='product flex'>
+    <view class="cart_img_view">
+      <image src='/images/goods.jpg' />
+    </view>
+    <view class='cart_product_info'>
+      <view class='product_title'>旺图思瑞微信小程序标准版1旺图思瑞微信小程序标准版1旺图思瑞微信小程序标准版1旺图思瑞微信小程序标准版1</view>
+      <view class='product_spec'>规格: 标准版1</view>
+      <view class='product_price'>¥ 3899.99</view>
+    </view>
+  </view>
+  <view class='product flex'>
+    <view class="cart_img_view">
+      <image src='/images/goods.jpg' />
+    </view>
+    <view class='cart_product_info'>
+      <view class='product_title'>旺图思瑞微信小程序标准版1旺图思瑞微信小程序标准版1旺图思瑞微信小程序标准版1旺图思瑞微信小程序标准版1</view>
+      <view class='product_spec'>规格: 标准版1</view>
+      <view class='product_price'>¥ 3899.99</view>
+    </view>
+  </view>
+  <view class='product flex'>
+    <view class="cart_img_view">
+      <image src='/images/goods.jpg' />
+    </view>
+    <view class='cart_product_info'>
+      <view class='product_title'>旺图思瑞微信小程序标准版1旺图思瑞微信小程序标准版1旺图思瑞微信小程序标准版1旺图思瑞微信小程序标准版1</view>
+      <view class='product_spec'>规格: 标准版1</view>
+      <view class='product_price'>¥ 3899.99</view>
+    </view>
+  </view>
+  <view class='product flex'>
+    <view class="cart_img_view">
+      <image src='/images/goods.jpg' />
+    </view>
+    <view class='cart_product_info'>
+      <view class='product_title'>旺图思瑞微信小程序标准版1旺图思瑞微信小程序标准版1旺图思瑞微信小程序标准版1旺图思瑞微信小程序标准版1</view>
+      <view class='product_spec'>规格: 标准版1</view>
+      <view class='product_price'>¥ 3899.99</view>
+    </view>
+  </view>
+</view>
