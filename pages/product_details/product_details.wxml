@@ -1,0 +1,94 @@
+<view class='topbar'>
+  <view class='topbar_selected'>商品</view>
+  <view class=''>参数</view>
+  <view class=''>详情</view>
+</view>
+
+<view class='placeholder_low'></view>
+
+<view class='block' id='page0'>
+  <swiper class='product_pic' indicator-dots="true" autoplay="true" interval="5000" duration="300" indicator-active-color="#f38200">
+    <swiper-item>
+      <image src='/images/goods.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='/images/goods.jpg'></image>
+    </swiper-item>
+  </swiper>
+  <view class='product_info'>
+    <view class='product_title'>
+      旺图思瑞微信小程序商城标准版旺图思瑞微信小程序商城标准版旺图思瑞微信小程序商城标准版旺图思瑞微信小程序商城标准版旺图思瑞微信小程序商城标准版
+    </view>
+    <view class='product_spec'>
+      型号: 旺图思瑞微信小程序商城标准版实惠版大众版分销版套餐1
+    </view>
+    <view class='flex' style='margin-bottom: 0.5rem;'>
+      <view class='flex-grow price'>¥ 3899.99</view>
+      <view class='salenumber'>销量: 368</view>
+    </view>
+    <view style='display: block; margin-bottom: 0.5rem;'>产品规格:</view>
+    <view class='spec spec_selected'>套餐1</view>
+    <view class='spec'>套餐2</view>
+    <view class='spec'>套餐3</view>
+    <view class='spec'>套餐4</view>
+  </view>
+</view>
+
+<view class='block' id='page1'>
+  <view style='padding: 0.5rem;'>
+    <view class='blocktitle'>商品规格</view>
+    <view style="padding: 0.5rem;">
+      <view class='table_r'>
+        <view class='table_h'>商品名称</view>
+        <view class='table_d'>小程序商城标准版</view>
+      </view>
+      <view class='table_r'>
+        <view class='table_h'>购物功能</view>
+        <view class='table_d'>支持</view>
+      </view>
+      <view class='table_r'>
+        <view class='table_h'>自主定制</view>
+        <view class='table_d'>支持</view>
+      </view>
+      <view class='table_r'>
+        <view class='table_h'>分销功能</view>
+        <view class='table_d'>支持</view>
+      </view>
+      <view class='table_r'>
+        <view class='table_h'>模块定制</view>
+        <view class='table_d'>不支持</view>
+      </view>
+      <view class='table_r'>
+        <view class='table_h'>程序价格</view>
+        <view class='table_d'>3899.99</view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class='block' id='page2'>
+  <view style='padding: 0.5rem;'>
+    <view class='blocktitle'>图文详情</view>
+  </view>
+    <image src="//img30.360buyimg.com/popWareDetail/jfs/t7969/212/2871930712/144459/4103b3cb/59eec6f5N28525f4e.jpg" mode="widthFix"></image>
+    <image src="//img30.360buyimg.com/popWareDetail/jfs/t11041/362/373186614/123755/f11179b5/59eec6f5Ne62b0513.jpg" mode="widthFix"></image>
+    <image src="//img30.360buyimg.com/popWareDetail/jfs/t7663/335/3020765295/215996/5984323a/59eec6f5N42485f60.jpg" mode="widthFix"></image>
+    <image src="//img30.360buyimg.com/popWareDetail/jfs/t11299/251/367893102/125326/4c69ef36/59eec6f5Nf9d444a4.jpg" imode="widthFix"></image>
+    <image src="//img30.360buyimg.com/popWareDetail/jfs/t10090/83/2167902216/98864/47d6b2da/59eec6f5Nbf046ef9.jpg" mode="widthFix"></image>
+    <image src="//img30.360buyimg.com/popWareDetail/jfs/t11890/36/380218532/103078/6558499b/59eec6f5Nea5655f9.jpg" mode="widthFix"></image>
+    <image src="//img30.360buyimg.com/popWareDetail/jfs/t11218/343/369897839/199389/6178de26/59eec6f6N8d3dac11.jpg" mode="widthFix"></image>
+    <image src="//img30.360buyimg.com/popWareDetail/jfs/t7873/87/3027021459/115029/ce5022d8/59eec6f6N71f1d115.jpg" mode="widthFix"></image>
+    <image src="//img30.360buyimg.com/popWareDetail/jfs/t11329/214/368402425/121860/c63e5b9d/59eec6f6N5b8cdb5e.jpg" mode="widthFix"></image>
+    <image src="//img30.360buyimg.com/popWareDetail/jfs/t7297/252/3898652710/117392/696e9957/59eec6f6N1ad2ffb7.jpg" mode="widthFix"></image>
+    <image src="//img30.360buyimg.com/popWareDetail/jfs/t11350/236/377639026/159918/8040e5a/59eec6f6N2712d350.jpg" mode="widthFix"></image>
+    <image src="//img30.360buyimg.com/popWareDetail/jfs/t11923/38/372540111/129997/6ff71efe/59eec6f6N8fc9d967.jpg" mode="widthFix"></image>
+    <image src="//img30.360buyimg.com/popWareDetail/jfs/t7333/180/3533317710/23543/876836a5/59eec6f6N69e41de4.jpg" mode="widthFix"></image>
+</view>
+
+<view class='placeholder'></view>
+
+<view class='bottombar'>
+  <view style='width: 5rem;'>联系客服</view>
+  <view style="width: 0; flex-grow: 1; background-color: #FF9500; color: white;">加入购物车</view>
+  <view style="width: 0; flex-grow: 1; background-color: #FF0036; color: white;">立即购买</view>
+</view>

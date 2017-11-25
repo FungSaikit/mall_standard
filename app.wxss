@@ -9,7 +9,7 @@
   box-sizing: border-box;
 } 
 
-.body {
+page {
   background-color: #eee;
 }
 
@@ -19,6 +19,12 @@
   background-color: #fff;
   border-bottom: 1px solid lightgray;
   margin-top: 10rpx;
+}
+
+.block:after {
+  content: '';
+  display: block;
+  clear: both;
 }
 
 .flex {
@@ -34,4 +40,15 @@
 .blocktitle {
   padding: 10rpx;
   color: #f38200;
+  background-color: #fff;
+}
+
+.placeholder {
+  display: block;
+  height: 3.2rem;
+}
+
+.placeholder_low {
+  display: block;
+  height: 2.5rem;
 }

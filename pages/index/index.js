@@ -18,5 +18,11 @@ Page({
     } else {
       console.log(this.data.keywords);
     }
+  },
+  productDetails: function(e) {
+    console.log(e.currentTarget.dataset.pid);
+    wx.navigateTo({
+      url: '/pages/product_details/product_details',
+    })
   }
 });

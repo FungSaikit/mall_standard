@@ -1,1 +1,133 @@
 /* pages/cart/cart.wxss */
+
+.bottombar {
+  height: 3rem;
+  line-height: 3rem;
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid lightgray;
+}
+
+.selectall {
+  color: gray;
+  font-size: 0.8rem;
+  padding: 0 0.5rem;
+  line-height: 2.9rem;
+}
+
+.bottom_button {
+  float: right;
+  text-align: center;
+  width: 25%;
+  color: white;
+  background-color: #f38200;
+  font-size: 1rem;
+  line-height: 3rem;
+  border-radius: 0;
+}
+
+.sum {
+  color: red;
+  text-align: left;
+  font-size: 0.8rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cart_product {
+  background-color: #fff;
+}
+
+.product_top {
+  width: 100%;
+  height: 6rem;
+  margin-top: 0.2rem;
+  border-bottom: 1px solid lightgray;
+}
+
+.product_checkbox {
+  line-height: 6rem;
+  padding-left: 0.5rem;
+}
+
+.cart_img_view {
+  height: 6rem;
+  width: 6rem;
+}
+
+.cart_img_view image {
+  width: 5rem;
+  height: 5rem;
+  margin: 0.5rem;
+}
+
+.cart_product_info {
+  padding: 0.5rem;
+}
+
+.product_title {
+  display: -webkit-box;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  height: 2.5rem;
+  line-height: 1.25rem;
+  color: dimgray;
+}
+
+.product_spec {
+  margin-top: 0.25rem;
+  font-size: 0.8rem;
+  color: gray;
+  height: 1rem;
+  line-height: 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.product_price {
+  font-size: 1rem;
+  color: red;
+  height: 1.25rem;
+  line-height: 1.25rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.product_bottom {
+  padding: 0.25rem 0.5rem;
+  display: flex;
+}
+
+.number_view {
+  height: 1.5rem;
+  border: 1px solid lightgray;
+  width: 8rem;
+  display: flex;
+}
+
+.number_bottom {
+  width: 1.5rem;
+  text-align: center;
+}
+
+.number_input {
+  text-align: center;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  width: 5rem;
+  height: 1.5rem;
+}
+
+.product_delete {
+  height: 1rem;
+  width: 1rem;
+  margin: 0.25rem;
+}

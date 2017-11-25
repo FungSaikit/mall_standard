@@ -1,0 +1,132 @@
+<form bindsubmit='formSubmit'>
+
+  <checkbox-group>
+    <view class='cart_product'>
+      <view class='product_top flex'>
+        <checkbox value='1' class='product_checkbox'/>
+        <view class="cart_img_view">
+          <image src='/images/goods.jpg' />
+        </view>
+        <view class='cart_product_info'>
+          <view class='product_title'>旺图思瑞微信小程序标准版1旺图思瑞微信小程序标准版1旺图思瑞微信小程序标准版1旺图思瑞微信小程序标准版1</view>
+          <view class='product_spec'>型号: 标准版1</view>
+          <view class='product_price'>¥ 3899.99</view>
+        </view>
+      </view>
+      <view class='product_bottom'>
+        <view class='number_view'>
+          <view class='number_bottom'>-</view>
+          <input class='number_input' value='1' />
+          <view class='number_bottom'>+</view>
+        </view>
+        <view class='flex-grow'></view>
+        <image class='product_delete' src='/images/delete.png'></image>
+      </view>
+    </view>
+
+    <view class='cart_product'>
+      <view class='product_top flex'>
+        <checkbox value='1' class='product_checkbox'/>
+        <view class="cart_img_view">
+          <image src='/images/goods.jpg' />
+        </view>
+        <view class='cart_product_info'>
+          <view class='product_title'>旺图思瑞微信小程序标准版1旺图思瑞微信小程序标准版1旺图思瑞微信小程序标准版1旺图思瑞微信小程序标准版1</view>
+          <view class='product_spec'>型号: 标准版1</view>
+          <view class='product_price'>¥ 3899.99</view>
+        </view>
+      </view>
+      <view class='product_bottom'>
+        <view class='number_view'>
+          <view class='number_bottom'>-</view>
+          <input class='number_input' value='1' />
+          <view class='number_bottom'>+</view>
+        </view>
+        <view class='flex-grow'></view>
+        <image class='product_delete' src='/images/delete.png'></image>
+      </view>
+    </view>
+
+    <view class='cart_product'>
+      <view class='product_top flex'>
+        <checkbox value='1' class='product_checkbox'/>
+        <view class="cart_img_view">
+          <image src='/images/goods.jpg' />
+        </view>
+        <view class='cart_product_info'>
+          <view class='product_title'>旺图思瑞微信小程序标准版1旺图思瑞微信小程序标准版1旺图思瑞微信小程序标准版1旺图思瑞微信小程序标准版1</view>
+          <view class='product_spec'>型号: 标准版1</view>
+          <view class='product_price'>¥ 3899.99</view>
+        </view>
+      </view>
+      <view class='product_bottom'>
+        <view class='number_view'>
+          <view class='number_bottom'>-</view>
+          <input class='number_input' value='1' />
+          <view class='number_bottom'>+</view>
+        </view>
+        <view class='flex-grow'></view>
+        <image class='product_delete' src='/images/delete.png'></image>
+      </view>
+    </view>
+
+    <view class='cart_product'>
+      <view class='product_top flex'>
+        <checkbox value='1' class='product_checkbox'/>
+        <view class="cart_img_view">
+          <image src='/images/goods.jpg' />
+        </view>
+        <view class='cart_product_info'>
+          <view class='product_title'>旺图思瑞微信小程序标准版1旺图思瑞微信小程序标准版1旺图思瑞微信小程序标准版1旺图思瑞微信小程序标准版1</view>
+          <view class='product_spec'>型号: 标准版1</view>
+          <view class='product_price'>¥ 3899.99</view>
+        </view>
+      </view>
+      <view class='product_bottom'>
+        <view class='number_view'>
+          <view class='number_bottom'>-</view>
+          <input class='number_input' value='1' />
+          <view class='number_bottom'>+</view>
+        </view>
+        <view class='flex-grow'></view>
+        <image class='product_delete' src='/images/delete.png'></image>
+      </view>
+    </view>
+
+    <view class='cart_product'>
+      <view class='product_top flex'>
+        <checkbox value='1' class='product_checkbox'/>
+        <view class="cart_img_view">
+          <image src='/images/goods.jpg' />
+        </view>
+        <view class='cart_product_info'>
+          <view class='product_title'>旺图思瑞微信小程序标准版1旺图思瑞微信小程序标准版1旺图思瑞微信小程序标准版1旺图思瑞微信小程序标准版1</view>
+          <view class='product_spec'>型号: 标准版1</view>
+          <view class='product_price'>¥ 3899.99</view>
+        </view>
+      </view>
+      <view class='product_bottom'>
+        <view class='number_view'>
+          <view class='number_bottom'>-</view>
+          <input class='number_input' value='1' />
+          <view class='number_bottom'>+</view>
+        </view>
+        <view class='flex-grow'></view>
+        <image class='product_delete' src='/images/delete.png'></image>
+      </view>
+    </view>
+    <view class='placeholder'></view>
+  </checkbox-group>
+
+
+
+  <view class='bottombar flex'>
+    <view class='flex-grow flex'>
+      <checkbox class='selectall'>全选</checkbox>
+      <view class='sum flex-grow'>
+        <view style='color: gray; display: inline-block;'>总计:</view> ¥ 3899.99</view>
+    </view>
+    <view class='bottom_button' style='background-color: gray; width: 15%;'>删除</view>
+    <button class='bottom_button' formType='submit'>结算</button>
+  </view>
+</form>

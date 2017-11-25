@@ -45,7 +45,7 @@
   border-right: 0.1rem solid #eee;
   text-align: center;
   color: dimgray;
-  padding: 0.5rem;
+  padding: 1rem 0.5rem;
 }
 
 .menu_img {

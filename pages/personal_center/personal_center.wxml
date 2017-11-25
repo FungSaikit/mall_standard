@@ -9,44 +9,73 @@
     <view class='blocktitle'>我的订单</view>
     <view class='blockline flex'>
       <view class='menu_item'>
-        <image class='menu_img' src='/images/personalCenter/0.png'></image>
+        <image class='menu_img' src='/images/personalCenter/待付款.png'></image>
         <view class='menu_title'>待付款</view>
       </view>
       <view class='menu_item'>
-        <image class='menu_img' src='/images/personalCenter/1.png'></image>
+        <image class='menu_img' src='/images/personalCenter/待发货.png'></image>
         <view class='menu_title'>待发货</view>
       </view>
       <view class='menu_item'>
-        <image class='menu_img' src='/images/personalCenter/2.png'></image>
+        <image class='menu_img' src='/images/personalCenter/待收货.png'></image>
         <view class='menu_title'>待收货</view>
       </view>
       <view class='menu_item' style='border-right: 0;'>
-        <image class='menu_img' src='/images/personalCenter/3.png'></image>
+        <image class='menu_img' src='/images/personalCenter/退货款.png'></image>
         <view class='menu_title'>退款/退货</view>
       </view>
     </view>
-    <view class='blockline'></view>
   </view>
   <view class='block'>
     <view class='blocktitle'>客户订单</view>
     <view class='blockline flex'>
-      <view class='menu_item'>待付款</view>
-      <view class='menu_item'>待发货</view>
-      <view class='menu_item'>待收货</view>
-      <view class='menu_item' style='border-right: 0;'>退款/退货</view>
+      <view class='menu_item'>
+        <image class='menu_img' src='/images/personalCenter/待付款.png'></image>
+        <view class='menu_title'>待付款</view>
+      </view>
+      <view class='menu_item'>
+        <image class='menu_img' src='/images/personalCenter/待发货.png'></image>
+        <view class='menu_title'>待发货</view>
+      </view>
+      <view class='menu_item'>
+        <image class='menu_img' src='/images/personalCenter/待收货.png'></image>
+        <view class='menu_title'>待收货</view>
+      </view>
+      <view class='menu_item' style='border-right: 0;'>
+        <image class='menu_img' src='/images/personalCenter/退货款.png'></image>
+        <view class='menu_title'>退款/退货</view>
+      </view>
     </view>
   </view>
   <view class='block'>
     <view class='blocktitle'>其他功能</view>
     <view class='blockline flex'>
-      <view class='menu_item'>地址管理</view>
-      <view class='menu_item'>我的钱包</view>
-      <view class='menu_item'>售后列表</view>
-      <view class='menu_item' style='border-right: 0;'>服务反馈</view>
+      <view class='menu_item'>
+        <image class='menu_img' src='/images/personalCenter/地址管理.png'></image>
+        <view class='menu_title'>地址管理</view>
+      </view>
+      <view class='menu_item'>
+        <image class='menu_img' src='/images/personalCenter/我的钱包.png'></image>
+        <view class='menu_title'>我的钱包</view>
+      </view>
+      <view class='menu_item'>
+        <image class='menu_img' src='/images/personalCenter/售后列表.png'></image>
+        <view class='menu_title'>售后列表</view>
+      </view>
+      <view class='menu_item' style='border-right: 0;'>
+        <image class='menu_img' src='/images/personalCenter/服务反馈.png'></image>
+        <view class='menu_title'>服务反馈</view>
+      </view>
     </view>
     <view class='blockline flex'>
-      <view class='menu_item'>客户列表</view>
-      <view class='menu_item'>客户信息</view>
+      <view class='menu_item'>
+        <image class='menu_img' src='/images/personalCenter/客户列表.png'></image>
+        <view class='menu_title'>客户列表</view>
+      </view>
+      <view class='menu_item'>
+        <image class='menu_img' src='/images/personalCenter/客户消息.png'></image>
+        <view class='menu_title'>客户消息</view>
+      </view>
       <view class='menu_item' style='border-right-color: #fff;'></view>
       <view class='menu_item' style='border-right: 0;'></view>
     </view>
@@ -54,9 +83,18 @@
   <view class='block'>
     <view class='blocktitle'>后台功能</view>
     <view class='blockline flex'>
-      <view class='menu_item'>今日待发</view>
-      <view class='menu_item'>待收货</view>
-      <view class='menu_item'>已收货</view>
+      <view class='menu_item'>
+        <image class='menu_img' src='/images/personalCenter/今日待发.png'></image>
+        <view class='menu_title'>今日待发</view>
+      </view>
+      <view class='menu_item'>
+        <image class='menu_img' src='/images/personalCenter/待收货.png'></image>
+        <view class='menu_title'>待收货</view>
+      </view>
+      <view class='menu_item'>
+        <image class='menu_img' src='/images/personalCenter/已收货.png'></image>
+        <view class='menu_title'>已收货</view>
+      </view>
       <view class='menu_item' style='border-right: 0;'></view>
     </view>
   </view>
