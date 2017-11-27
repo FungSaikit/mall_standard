@@ -1,35 +1,18 @@
-// pages/product_details/product_details.js
+// pages/order_list/order_list.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    currentPage: 0,
-    originprice: false
+  
   },
 
-  pageChange: function(e) {
-    this.setData({
-      'currentPage': e.detail.current
-    });
-  },
-
-  changePage: function(e) {
-    this.setData({
-      'currentPage': e.target.dataset.tabnum
-    });
-  },
-
-  showoriginprice: function() {
-    this.setData({
-      'originprice': !this.data.originprice
-    })
-  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+  
   },
 
   /**
