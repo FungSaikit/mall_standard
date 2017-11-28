@@ -1,11 +1,13 @@
 {
   "pages": [
-    "pages/order_list/order_list",
+    "pages/wallet/wallet",
     "pages/index/index",
     "pages/product_list/product_list",
     "pages/cart/cart",
     "pages/personal_center/personal_center",
-    "pages/product_details/product_details"
+    "pages/product_details/product_details",
+    "pages/order_list/order_list"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",

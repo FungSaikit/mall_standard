@@ -43,4 +43,108 @@
       <view class='order_bottom_button' style='color: #f38200; border-color: #f38200;'>付款</view>
     </view>
   </view>
+  <view class='order'>
+    <view class='order_top'>订单号：201430340207</view>
+    <view class='order_middle'>
+      <image class='order_middle_pic' src='/images/goods.jpg'></image>
+      <view class='order_middle_info'>
+        <view class='product_title'>
+          旺图思瑞微信小程序旺图思瑞微信小程序旺图思瑞微信小程序旺图思瑞微信小程序旺图思瑞微信小程序旺图思瑞微信小程序
+        </view>
+        <view class='product_spec'>
+          型号：1111111111111111111111111111111111111111111111111111111111
+        </view>
+        <view class='product_price_number'>
+          <view class='product_price'>¥ 3899.99</view>
+          <view class='product_number'>
+          数量：1
+        </view>
+        </view>
+        
+      </view>
+    </view>
+    <view class='order_bottom'>
+      <view class='order_bottom_button'>查看详情</view>
+      <view class='order_bottom_button'>关闭</view>
+      <view class='order_bottom_button' style='color: #f38200; border-color: #f38200;'>付款</view>
+    </view>
+  </view>
+  <view class='order'>
+    <view class='order_top'>订单号：201430340207</view>
+    <view class='order_middle'>
+      <image class='order_middle_pic' src='/images/goods.jpg'></image>
+      <view class='order_middle_info'>
+        <view class='product_title'>
+          旺图思瑞微信小程序旺图思瑞微信小程序旺图思瑞微信小程序旺图思瑞微信小程序旺图思瑞微信小程序旺图思瑞微信小程序
+        </view>
+        <view class='product_spec'>
+          型号：1111111111111111111111111111111111111111111111111111111111
+        </view>
+        <view class='product_price_number'>
+          <view class='product_price'>¥ 3899.99</view>
+          <view class='product_number'>
+          数量：1
+        </view>
+        </view>
+        
+      </view>
+    </view>
+    <view class='order_bottom'>
+      <view class='order_bottom_button'>查看详情</view>
+      <view class='order_bottom_button'>关闭</view>
+      <view class='order_bottom_button' style='color: #f38200; border-color: #f38200;'>付款</view>
+    </view>
+  </view>
+  <view class='order'>
+    <view class='order_top'>订单号：201430340207</view>
+    <view class='order_middle'>
+      <image class='order_middle_pic' src='/images/goods.jpg'></image>
+      <view class='order_middle_info'>
+        <view class='product_title'>
+          旺图思瑞微信小程序旺图思瑞微信小程序旺图思瑞微信小程序旺图思瑞微信小程序旺图思瑞微信小程序旺图思瑞微信小程序
+        </view>
+        <view class='product_spec'>
+          型号：1111111111111111111111111111111111111111111111111111111111
+        </view>
+        <view class='product_price_number'>
+          <view class='product_price'>¥ 3899.99</view>
+          <view class='product_number'>
+          数量：1
+        </view>
+        </view>
+        
+      </view>
+    </view>
+    <view class='order_bottom'>
+      <view class='order_bottom_button'>查看详情</view>
+      <view class='order_bottom_button'>关闭</view>
+      <view class='order_bottom_button' style='color: #f38200; border-color: #f38200;'>付款</view>
+    </view>
+  </view>
+  <view class='order'>
+    <view class='order_top'>订单号：201430340207</view>
+    <view class='order_middle'>
+      <image class='order_middle_pic' src='/images/goods.jpg'></image>
+      <view class='order_middle_info'>
+        <view class='product_title'>
+          旺图思瑞微信小程序旺图思瑞微信小程序旺图思瑞微信小程序旺图思瑞微信小程序旺图思瑞微信小程序旺图思瑞微信小程序
+        </view>
+        <view class='product_spec'>
+          型号：1111111111111111111111111111111111111111111111111111111111
+        </view>
+        <view class='product_price_number'>
+          <view class='product_price'>¥ 3899.99</view>
+          <view class='product_number'>
+          数量：1
+        </view>
+        </view>
+        
+      </view>
+    </view>
+    <view class='order_bottom'>
+      <view class='order_bottom_button'>查看详情</view>
+      <view class='order_bottom_button'>关闭</view>
+      <view class='order_bottom_button' style='color: #f38200; border-color: #f38200;'>付款</view>
+    </view>
+  </view>
 </view>
