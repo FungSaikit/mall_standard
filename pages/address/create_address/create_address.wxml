@@ -1,0 +1,23 @@
+<!--pages/address/create_address/create_address.wxml-->
+<view class='line'>
+  <view class='title'>收货姓名</view>
+  <input></input> 
+</view>
+<view class='line'>
+  <view class='title'>联系电话</view>
+  <input></input> 
+</view>
+<view class='line'>
+  <view class='title'>省/直辖市</view>
+  <input></input> 
+</view>
+<view class='line'>
+  <view class='title'>城市</view>
+  <input></input> 
+</view>
+<view class='line'>
+  <view class='title'>地区</view>
+  <input></input> 
+</view>
+<textarea maxlength='-1' style='width: 710rpx; margin-top: 1rem; background-color: #fff; padding: 20rpx; min-height: 2.5rem; border-bottom: 1px solid lightgray;' auto-height='auto' placeholder='详细地址'></textarea>
+<view class='orange_button'>提交</view>

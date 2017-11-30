@@ -1,0 +1,77 @@
+<!--pages/wallet/wallet.wxml-->
+<view class='wallet_top'>
+  <view class='nextbutton' bindtap='changePage'>
+    <image src='/images/wallet/previous.png'></image>
+  </view>
+  <swiper class='wallet_top_content' current='{{currentPage}}' bindchange='setCurrentPage'>
+    <swiper-item>
+      <view class='money'>¥ <view class='integer'>39,606</view>.00</view>
+      <view class='wallet_int'>
+        <image class='wallet_img' src='/images/wallet/money_out.png'></image>
+        <view class='wallet_underline'>可提现货款</view>
+      </view>
+      <view style='height: 1.5rem; line-height: 1.5rem; font-size: 0.8rem;'>点击提现</view>
+    </swiper-item>
+    <swiper-item>
+      <view class='money'>¥ <view class='integer'>20,000</view>.00</view>
+      <view>
+        <image class='wallet_img' src='/images/wallet/money_waiting.png'></image>
+        <view class='wallet_underline'>待结金额</view>
+      </view>  
+    </swiper-item>
+  </swiper>
+  <view class='nextbutton'  bindtap='changePage'>
+    <image src='/images/wallet/next.png'></image>
+  </view>
+</view>
+
+<view class='select_classes'>
+  <view class='select_class {{currentTab==0?"select_class_selected":""}}' data-tab='0' bindtap='changeTab'>全部</view>
+  <view class='select_class {{currentTab==1?"select_class_selected":""}}' data-tab='1' bindtap='changeTab'>成功</view>
+  <view class='select_class {{currentTab==2?"select_class_selected":""}}' data-tab='2' bindtap='changeTab'>失败</view>
+  <view class='select_class {{currentTab==3?"select_class_selected":""}}' data-tab='3' bindtap='changeTab'>待结算</view>
+</view>
+
+<view style='height: 9.6rem;'></view>
+
+<view class='detail_list' style='margin: 0 0.5rem;'>
+  <view class='blocktitle' style='border-bottom: 1px solid gray; '>
+    结算明细
+  </view>
+  <view class='list_item'>
+    <view class='item_top'>
+      <view class='item_price'>¥ 582.90</view>
+      <view class="status_success">成功</view>
+    </view>
+    <view class='item_bottom'>
+      <view class='money_origin'>退款</view>
+      <view>2017-11-28</view>
+    </view>
+  </view>
+  <view class='list_item'>
+    <view class='item_top'>
+      <view class='item_price'>¥ 582.90</view>
+      <view class="status_waiting">待结算</view>
+    </view>
+    <view class='item_bottom'>
+      <view class='money_origin'>退款</view>
+      <view>2017-11-28</view>
+    </view>
+  </view>
+  <view class='list_item'>
+    <view class='item_top'>
+      <view class='item_price'>¥ 582.90</view>
+      <view class="status_fail">失败</view>
+    </view>
+    <view class='item_bottom'>
+      <view class='money_origin'>退款</view>
+      <view>2017-11-28</view>
+    </view>
+  </view>
+  <view class='blocktitle' style='color: gray;'>
+    加载中
+  </view>
+  <view class='blocktitle' style='color: gray;'>
+    没有更多了
+  </view>
+</view>

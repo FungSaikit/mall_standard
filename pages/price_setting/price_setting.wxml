@@ -1,0 +1,12 @@
+<!--pages/price_setting/price_setting.wxml-->
+
+<view class='price_setter'>
+  <view class='price_setter_title'>自定义价格(倍)</view>
+  <input class='price_setter_input' placeholder='2'></input>
+  <!-- 该地方绑定原来设定的倍数 -->
+</view>
+
+<view class='orange_button'>设定</view>
+
+<text class='tips'>请在上方填写希望设置的价格倍数。
+如：输入数字 2 ，则所有商品的价格为原价的2倍。</text>

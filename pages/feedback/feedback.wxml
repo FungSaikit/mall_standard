@@ -1,0 +1,9 @@
+<!--pages/feedback/feedback.wxml-->
+<textarea class='problem_input' placeholder='请在此描述您遇到的问题' auto-focus='true' auto-height='true' maxlength='-1'></textarea>
+
+<view class='contact'>
+  <view class='contact_title'>联系方式</view>
+  <input class='contact_input' placeholder='选填，以便我们联系您'></input>
+</view>
+
+<view class='orange_button'>提交</view>

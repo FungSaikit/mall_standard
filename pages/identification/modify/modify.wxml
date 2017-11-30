@@ -1,0 +1,27 @@
+<!--pages/identification/modify/modify.wxml-->
+<view class='line flex'>
+<view class='title'>公司简称</view>
+<input></input>
+</view>
+
+<view class='line flex'>
+<view class='title'>企业法人</view>
+<input></input>
+</view>
+
+<view class='line flex'>
+<view class='title'>省/直辖市</view>
+<input value='广东省' disabled='true'></input>
+</view>
+
+<view class='line flex'>
+<view class='title'>城市</view>
+<input value='广州市' disabled='true'></input>
+</view>
+
+<view class='line flex'>
+<view class='title'>地区</view>
+<input value='天河区' disabled='true'></input>
+</view>
+
+<view class='orange_button'>提交</view>

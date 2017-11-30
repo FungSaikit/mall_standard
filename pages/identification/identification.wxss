@@ -1,0 +1,6 @@
+/* pages/identification/identification.wxss */
+image {
+  width: 750rpx;
+  height: 874rpx;
+  background-color: #fff;
+}

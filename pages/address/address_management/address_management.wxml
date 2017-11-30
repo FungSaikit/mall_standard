@@ -1,0 +1,32 @@
+<!--pages/address/address_management/address_management.wxml-->
+
+<view class='address_list'>
+
+  <view class='line'>
+    <view class='top'>
+      <view class='flex'>
+        <view class='flex-grow'>冯世杰</view>
+        <view>13316302055</view>
+      </view>
+      <view class='address'>
+        广州市天河区五山路华南农业大学泰山区创新创业学院
+      </view>
+    </view>
+    <view class='bottom flex'>
+      <view class='flex-grow'></view>
+      <view>
+      <image class='edit_icon' src='/images/personalCenter/edit.png'></image>
+      <view class='edit_text edit_text_left'>编辑</view>
+      </view>
+      <view>
+      <image class='edit_icon' src='/images/personalCenter/delete.png'></image>
+      <view class='edit_text'>删除</view>
+      </view>
+    </view>
+  </view>
+
+  <view style='height: 3rem;'></view>
+
+</view>
+
+<view class='orange_button' style='position: fixed; left: 0; bottom: 0;'>添加收货地址</view>

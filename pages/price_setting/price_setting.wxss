@@ -1,0 +1,39 @@
+/* pages/price_setting/price_setting.wxss */
+
+.price_setter {
+  width: 100%;
+  display: flex;
+  display: -webkit-flex;
+  height: 3rem;
+  line-height: 3rem;
+  background-color: #fff;
+  border-bottom: 1px solid lightgray;
+  margin-top: 2rem;
+}
+
+.price_setter_input {
+  height: 3rem;
+  line-height: 3rem;
+  flex-grow: 1;
+  -webkit-flex-grow: 1;
+  color: dimgray;
+}
+
+.price_setter_title {
+  margin: 0 0.5rem;
+}
+
+.price_button {
+  height: 3rem;
+  line-height: 3rem;
+  color: #fff;
+  background-color: #f38200;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.tips {
+  display: block;
+  padding: 0.5rem;
+  color: dimgray;
+}

@@ -1,0 +1,65 @@
+<!--pages/service/apply/apply.wxml-->
+<view class='block'>
+  <view class='order_number'>
+    订单编号: 201430340207
+  </view>
+  <view class='product_details'>
+    <view>
+      <image class='product_img' src='/images/goods.jpg'></image>
+    </view>
+    <view class='flex_grow' style='margin-left: 0.5rem;'>
+      <view class='product_title'>你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好你好</view>
+      <view class='product_model'>型号: jackfung</view>
+      <view class='flex'>
+        <view class='product_price flex-grow'>¥ 10086</view>
+        <view class='product_number'>数量: 1</view>
+      </view>
+    </view>
+  </view>
+  <view class='product_service_classes'>
+    <view class="product_service_class {{!currentTab ? 'product_service_class_selected ':''}}" bindtap='changeTab'>
+      退货/退款
+    </view>
+    <view class="product_service_class {{currentTab ? 'product_service_class_selected ':''}}" bindtap='changeTab'>
+      补发配件
+    </view>
+  </view>
+</view>
+
+<picker class="line {{currentTab ? 'hidden' : ''}}" range='{{serviceType}}' bindchange='changeServiceType'>
+  <view class="picker flex">
+    <view class='title'>售后类型</view>
+    <view class='flex-grow' style='text-align: center; color: gray;'>{{serviceType[serviceTypeIndex]}}</view>
+  </view>
+</picker>
+
+<view class="reason block flex {{currentTab ? 'hidden' : ''}}">
+  <view class='title' style='text-align: center;'>退货/退款原因</view>
+  <textarea auto-height='true' maxlength='-1' style='padding: 0.5rem; min-height: 3rem;'></textarea>
+</view>
+
+<view class="reason block flex {{!currentTab ? 'hidden' : ''}}">
+  <view class='title' style='line-height: 4rem;'>问题描述</view>
+  <textarea auto-height='true' maxlength='-1' style='padding: 0.5rem; min-height: 3rem;'></textarea>
+</view>
+
+<view class='line flex'>
+  <view class='title'>备注说明</view>
+  <input placeholder='选填'></input>
+</view>
+
+<view class='block'>
+  <view style='height: 2.5rem; line-height: 2.5rem; border-bottom: 1px solid lightgray; padding: 0 0.5rem;'>上传凭证(长按删除)</view>
+  <view style='display: inline-block'>
+    <view class='photo_frame' wx:for="{{selectedImages}}" data-imageid='{{index}}' bindlongtap='deleteImage' >
+      <image src='{{item}}' mode='aspectFill'></image>
+    </view>
+    <view class="add_photo_frame {{selectedImages.length < 3 ? '' : 'hidden'}}" bindtap='selectImages'>
+      <image src='/images/add.png'></image>
+    </view>
+  </view>
+</view>
+
+<view style='height: 3.5rem;'></view>
+
+<view class='orange_button' style='position: fixed; left: 0; bottom: 0;'>提交申请</view>

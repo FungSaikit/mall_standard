@@ -1,0 +1,32 @@
+<!--pages/wallet/withdraw/withdraw.wxml-->
+
+<view class='line flex'>
+  <view class='title'>提现到</view>
+  <view class='flex-grow' style='color: gray;'>微信钱包</view>
+</view>
+
+<view class='line' style='height: 5rem;'>
+  <view style='border-bottom: 1px solid lightgray' class='flex'>
+    <view class='title'>提现金额</view>
+    <view style='color: red; font-size: 1.5rem; margin-right: 0.5rem;'>¥</view>
+    <input type='number' style='height: 3rem; line-height: 3rem; font-size: 1.5rem; width: 1rem;' class='flex-grow' placeholder='0' bindinput='changeMoney' value='{{withdrawSum}}'></input>
+  </view>
+  <view class='details'>
+    当前可提现金额为{{balance}},
+    <view style='display: inline; color: #f00;' bindtap='withdrawAll'>全部提现</view>。
+  </view>
+</view>
+
+<view class='line' style='height: 5rem;'>
+  <view class='flex' style='border-bottom: 1px solid lightgray;'>
+    <view class='title'>手续费</view>
+    <view class='flex-grow' style='font-size: 1.2rem; color: red;'>¥ {{poundage}}</view>
+  </view>
+  <view class='details'>微信将收取金额的0.6%作为手续费。</view>
+</view>
+
+<view class='line'>
+  <view style='margin: 0.5rem;'>预计到账时间:  {{predictTime}}</view>
+</view>
+
+<view class='orange_button'>确认以上信息无误，提现</view>

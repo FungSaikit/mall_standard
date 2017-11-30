@@ -1,0 +1,9 @@
+/* pages/wallet/withdraw/withdraw.wxss */
+
+.details {
+  height: 2rem;
+  line-height: 2rem;
+  font-size: 0.8rem;
+  color: lightgray;
+  margin-left: 0.5rem;
+}

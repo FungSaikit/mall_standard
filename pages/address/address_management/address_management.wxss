@@ -1,0 +1,48 @@
+/* pages/address/address_management/address_management.wxss */
+
+
+.line {
+  height: auto;
+  line-height: 2rem;
+  border-bottom: 1px solid lightgray;
+  font-size: 1rem;
+}
+
+.top {
+  padding: 20rpx;
+  width: 710rpx;
+  border-bottom: 1px solid lightgray;
+}
+
+.address {
+  line-height: 1rem;
+  color: gray;
+  margin-top: 1rem;
+}
+
+.bottom {
+  padding: 0 20rpx;
+}
+
+.bottom {
+  height: 3rem;
+  line-height: 3rem;
+}
+
+.edit_icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  vertical-align: middle;
+}
+
+.edit_text {
+  height: 1.5rem;
+  line-height: 1.5rem;
+  font-size: 1;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.edit_text_left {
+  margin-right: 1rem;
+}

@@ -1,0 +1,4 @@
+<!--pages/identification/identification.wxml-->
+<image src=''></image>
+
+<view class='orange_button'>修改认证信息</view>

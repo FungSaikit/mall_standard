@@ -1,0 +1,121 @@
+/* pages/service/apply/apply.wxss */
+
+.block {
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid lightgray;
+  margin-top: 0.5rem;
+}
+
+.order_number {
+  height: 2.5rem;
+  line-height: 2.5rem;
+  white-space: nowrap;
+  border-bottom: 1px solid lightgray;
+  padding: 0 0.5rem;
+}
+
+.product_details {
+  display: flex;
+  display: -webkit-flex;
+  border-bottom: 1px solid lightgray;
+  padding: 0.5rem;
+}
+
+.product_img {
+  width: 6rem;
+  height: 6rem;
+}
+
+.product_title {
+  width: 100%;
+  height: 3rem;
+  line-height: 1.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  vertical-align: middle;
+  white-space: normal;
+  word-break: break-all;
+}
+
+.product_model {
+  width: 100%;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.product_price {
+  color: #f38200;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.product_number {
+  height: 1.5rem;
+  line-height: 1.5rem;
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.product_service_classes {
+  width: 100%;
+  height: 2.5rem;
+  display: flex;
+}
+
+.product_service_class {
+  width: 50%;
+  flex-grow: 1;
+  height: 2.4rem;
+  line-height: 2.4rem;
+  text-align: center;
+}
+
+.product_service_class_selected {
+  border-bottom: 0.1rem solid #f38200;
+  color: #f38200;
+}
+
+.reason {
+  min-height: 4rem;
+  line-height: 2rem;
+}
+
+.photo_frame {
+  width: 5rem;
+  height: 5rem;
+  line-height: 5rem;
+  text-align: center;
+  margin: 0.5rem 0 0.5rem 0.5rem;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.photo_frame image {
+  vertical-align: middle;
+  width: 5rem;
+  height: 5rem;
+}
+
+.add_photo_frame {
+  width: 5rem;
+  height: 5rem;
+  line-height: 5rem;
+  text-align: center;
+  margin: 0.5rem 0 0.5rem 0.5rem;
+  display: inline-block;
+  border: 1px dotted gray;
+  vertical-align: top;
+}
+
+.add_photo_frame image {
+  width: 2.5rem;
+  height: 2.5rem;
+  vertical-align: middle;
+}

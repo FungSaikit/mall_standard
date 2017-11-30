@@ -1,23 +1,11 @@
-// pages/wallet/wallet.js
+// pages/chat/chatlist/chatlist.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    currentPage: 0
-  },
-
-  changePage: function() {
-    this.setData({
-      currentPage: this.data.currentPage ? 0 : 1
-    })
-  },
-
-  setCurrentPage: function(e) {
-    this.setData({
-      currentPage: e.detail.current
-    })
+  
   },
 
   /**

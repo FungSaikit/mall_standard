@@ -1,13 +1,24 @@
 {
   "pages": [
-    "pages/wallet/wallet",
     "pages/index/index",
     "pages/product_list/product_list",
     "pages/cart/cart",
     "pages/personal_center/personal_center",
     "pages/product_details/product_details",
-    "pages/order_list/order_list"
-    
+    "pages/order_list/order_list",
+    "pages/chat/chatlist/chatlist",
+    "pages/chat/chat/chat",
+    "pages/price_setting/price_setting",
+    "pages/feedback/feedback",
+    "pages/wallet/wallet/wallet",
+    "pages/wallet/withdraw/withdraw",
+    "pages/identification/modify/modify",
+    "pages/identification/identification",
+    "pages/address/address_management/address_management",
+    "pages/service/service_list/service_list",
+    "pages/service/apply/apply",
+    "pages/service/service_management/service_management",
+    "pages/address/create_address/create_address" 
   ],
   "window": {
     "backgroundTextStyle": "light",
