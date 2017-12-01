@@ -1,1 +1,22 @@
 /* pages/service/service_list/service_list.wxss */
+
+.tabbar {
+  background-color: #fff;
+  height: 2.5rem;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.tab {
+  height: 2.4rem;
+  line-height: 2.4rem;
+  text-align: center;
+}
+
+.tab_selected {
+  border-bottom: 0.1rem solid #f38200;
+  color: #f38200;
+}

@@ -51,7 +51,7 @@
 <view class='block'>
   <view style='height: 2.5rem; line-height: 2.5rem; border-bottom: 1px solid lightgray; padding: 0 0.5rem;'>上传凭证(长按删除)</view>
   <view style='display: inline-block'>
-    <view class='photo_frame' wx:for="{{selectedImages}}" data-imageid='{{index}}' bindlongtap='deleteImage' >
+    <view class='photo_frame' wx:for="{{selectedImages}}" data-imageid='{{index}}' bindlongtap='deleteImage' data-src='{{item}}' bingtap='viewImage'>
       <image src='{{item}}' mode='aspectFill'></image>
     </view>
     <view class="add_photo_frame {{selectedImages.length < 3 ? '' : 'hidden'}}" bindtap='selectImages'>

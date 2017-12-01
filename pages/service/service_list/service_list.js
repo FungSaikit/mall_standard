@@ -5,7 +5,25 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    currentTab: 0,
+    orderList: [
+      {
+        orderNumber: '201430340207', 
+        orderTitle: '旺图思瑞微信小程序', 
+        orderModel: '小程序标准版',
+        price: '3899.99', 
+        number: '10', 
+        image: '/images/goods.jpg'
+      },
+    ]
+  },
+
+  changeTab: function (e) {
+    this.setData({
+      currentTab: e.currentTarget.dataset.tid
+    })
+
+   /* 此处重新渲染列表 */
   },
 
   /**

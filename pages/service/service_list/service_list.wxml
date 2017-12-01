@@ -1,2 +1,38 @@
 <!--pages/service/service_list/service_list.wxml-->
-<text>pages/service/service_list/service_list.wxml</text>
+
+<view class='flex tabbar'>
+  <view class='tab flex-grow {{currentTab==0?"tab_selected":""}}' data-tid='0' bindtap='changeTab'>待处理</view>
+  <view class='tab flex-grow {{currentTab==1?"tab_selected":""}}' data-tid='1' bindtap='changeTab'>已处理</view>
+</view>
+
+<view class='placeholder_low'></view>
+
+<view class='orderlist'>
+
+  <view class='order' wx:for="{{orderList}}">
+    <view class='order_top'>订单号：{{item.orderNumber}}</view>
+    <view class='order_middle'>
+      <image class='order_middle_pic' src='{{item.image}}'></image>
+      <view class='order_middle_info'>
+        <view class='product_title'>
+          {{item.orderTitle}}
+        </view>
+        <view class='product_spec'>
+          型号： {{item.orderModel}}
+        </view>
+        <view class='product_price_number'>
+          <view class='product_price'>¥ {{item.price}}</view>
+          <view class='product_number'>
+          数量：{{item.number}}
+        </view>
+        </view>
+      </view>
+    </view>
+    <view class='order_bottom'>
+      <view class='order_bottom_button'>查看详情</view>
+      <view class='order_bottom_button {{currentTab==1?"hidden":""}}' style='color: red; border-color: red;'>处理中</view>
+      <view class='order_bottom_button {{currentTab==0?"hidden":""}}' style='color: green; border-color: green;'>已处理</view>
+    </view>
+  </view>
+
+</view>

@@ -1,0 +1,99 @@
+<!--pages/service/service_details/service_details.wxml-->
+<view class='big_title'>商品信息</view>
+<view class='order_middle' style='background-color: #fff;'>
+  <image class='order_middle_pic' src='/images/goods.jpg'></image>
+  <view class='order_middle_info'>
+    <view class='product_title'>
+      {{productTitle}}
+    </view>
+    <view class='product_spec'>
+      型号： {{productModel}}
+    </view>
+    <view class='product_price_number'>
+      <view class='product_price'>¥ {{productPrice}}</view>
+      <view class='product_number'>
+        数量：{{productNumber}}
+      </view>
+    </view>
+  </view>
+</view>
+<view class='line'>
+  <view class='title'>订单号</view>
+  <view class='line_content'>{{orderNumber}}</view>
+</view>
+<view class='line'>
+  <view class='title'>付款时间</view>
+  <view class='line_content'>{{payTime}}</view>
+</view>
+<view class='line'>
+  <view class='title'>收货时间</view>
+  <view class='line_content'>{{receivingTime}}</view>
+</view>
+<view class='line'>
+  <view class='title'>厂家</view>
+  <view class='line_content'>{{factoryName}}</view>
+</view>
+<view class='line'>
+  <view class='title'>买家</view>
+  <view class='line_content'>{{buyer}}</view>
+</view>
+<view class='line'>
+  <view class='title'>客服</view>
+  <view class='line_content'>{{buyerService}}</view>
+</view>
+<view class='line'>
+  <view class='title'>收货人</view>
+  <view class='line_content'>{{consignee}}</view>
+</view>
+<view class='line'>
+  <view class='title'>联系电话</view>
+  <view class='line_content'>{{phoneNumber}}</view>
+</view>
+<view class='line'>
+  <view class='title'>收货地址</view>
+  <view class='line_content'>{{address}}</view>
+</view>
+
+<view class='big_title'>问题描述</view>
+<view class='line'>
+  <view class='title'>申请时间</view>
+  <view class='line_content'>{{applyTime}}</view>
+</view>
+<view class='line'>
+  <view class='title'>描述</view>
+  <view class='line_content'>{{applyDescription}}</view>
+</view>
+<view class='line' style='height: auto;'>
+  <view class='title'>图片</view>
+  <view class='line_content'>
+    <view class='photo_frame' wx:for="{{applyImage}}" data-imageid='{{index}}' data-imgsrc='' bindtap='viewPic'>
+      <image src='{{item}}' mode='aspectFill'></image>
+    </view>
+  </view>
+</view>
+<view class='line'>
+  <view class='title'>备注</view>
+  <view class='line_content'>{{applyRemarks}}</view>
+</view>
+
+<view class='big_title'>处理结果</view>
+<view class='line'>
+  <view class='title'>处理时间</view>
+  <view class='line_content'>{{processResult}}</view>
+</view>
+<view class='line'>
+  <view class='title'>描述</view>
+  <view class='line_content'>{{processDescription}}</view>
+</view>
+<view class='line' style='height: auto;'>
+  <view class='title'>图片</view>
+  <view class='line_content'>
+    <view class='photo_frame' wx:for="{{processImage}}" data-imageid='{{index}}' data-imgsrc='' bindtap='viewPic'>
+      <image src='{{item}}' mode='aspectFill'></image>
+    </view>
+  </view>
+</view>
+
+<view style='height: 3.5rem;'></view>
+
+<view class='orange_button' style='position: fixed; bottom: 0; left: 0;'>提交</view>

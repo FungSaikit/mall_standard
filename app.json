@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/service/service_details/service_details",
+    "pages/service/service_process/service_process",
     "pages/index/index",
     "pages/product_list/product_list",
     "pages/cart/cart",
@@ -15,10 +17,10 @@
     "pages/identification/modify/modify",
     "pages/identification/identification",
     "pages/address/address_management/address_management",
-    "pages/service/service_list/service_list",
-    "pages/service/apply/apply",
+    "pages/service/service_apply/service_apply",
     "pages/service/service_management/service_management",
-    "pages/address/create_address/create_address" 
+    "pages/address/create_address/create_address",
+    "pages/service/service_list/service_list"
   ],
   "window": {
     "backgroundTextStyle": "light",

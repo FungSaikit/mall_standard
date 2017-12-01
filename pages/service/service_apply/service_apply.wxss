@@ -87,35 +87,3 @@
   line-height: 2rem;
 }
 
-.photo_frame {
-  width: 5rem;
-  height: 5rem;
-  line-height: 5rem;
-  text-align: center;
-  margin: 0.5rem 0 0.5rem 0.5rem;
-  display: inline-block;
-  vertical-align: top;
-}
-
-.photo_frame image {
-  vertical-align: middle;
-  width: 5rem;
-  height: 5rem;
-}
-
-.add_photo_frame {
-  width: 5rem;
-  height: 5rem;
-  line-height: 5rem;
-  text-align: center;
-  margin: 0.5rem 0 0.5rem 0.5rem;
-  display: inline-block;
-  border: 1px dotted gray;
-  vertical-align: top;
-}
-
-.add_photo_frame image {
-  width: 2.5rem;
-  height: 2.5rem;
-  vertical-align: middle;
-}

@@ -1,0 +1,40 @@
+<!--pages/service/service_process/service_process.wxml-->
+
+<view class='top_tabs'>
+  <view class='top_tab {{currentTab==0?"top_tab_selected":""}}' data-tid='0' bindtap='changeTab'>补发配件</view>
+  <view class='top_tab {{currentTab==1?"top_tab_selected":""}}' data-tid='1' bindtap='changeTab'>处理售后</view>
+</view>
+
+<view class='line flex {{currentTab==1?"hidden":""}}'>
+  <view class='title'>配件</view>
+  <input></input>
+</view>
+
+<view class='line flex {{currentTab==1?"hidden":""}}'>
+  <view class='title'>数量</view>
+  <input></input>
+</view>
+
+<view class='line flex {{currentTab==0?"hidden":""}}'>
+  <view class='title'>解决方式</view>
+  <input></input>
+</view>
+
+<view class='line flex {{currentTab==0?"hidden":""}}'>
+  <view class='title'>花费金额</view>
+  <input></input>
+</view>
+
+<view class='block' style='margin-top: 0.5rem;'>
+  <view style='height: 2.5rem; line-height: 2.5rem; border-bottom: 1px solid lightgray; padding: 0 0.5rem;'>上传凭证(长按删除)</view>
+  <view style='display: inline-block'>
+    <view class='photo_frame' wx:for="{{selectedImages}}" data-imageid='{{index}}' bindlongtap='deleteImage' data-src='{{item}}' bindtap='viewImage' >
+      <image src='{{item}}' mode='aspectFill'></image>
+    </view>
+    <view class="add_photo_frame {{selectedImages.length < 3 ? '' : 'hidden'}}" bindtap='selectImages'>
+      <image src='/images/add.png'></image>
+    </view>
+  </view>
+</view>
+
+<view class='orange_button'>提交</view>
