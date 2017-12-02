@@ -5,6 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    pid: 0, //当前商品id
     currentPage: 0,
     originprice: false
   },
@@ -30,6 +31,10 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    console.log(options)
+    this.setData({
+      pid: options.pid
+    })
   },
 
   /**

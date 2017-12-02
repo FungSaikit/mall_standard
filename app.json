@@ -1,7 +1,5 @@
 {
   "pages": [
-    "pages/service/service_details/service_details",
-    "pages/service/service_process/service_process",
     "pages/index/index",
     "pages/product_list/product_list",
     "pages/cart/cart",
@@ -20,6 +18,8 @@
     "pages/service/service_apply/service_apply",
     "pages/service/service_management/service_management",
     "pages/address/create_address/create_address",
+    "pages/service/service_details/service_details",
+    "pages/service/service_process/service_process",
     "pages/service/service_list/service_list"
   ],
   "window": {

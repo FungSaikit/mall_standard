@@ -5,14 +5,24 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    currentTab: 0,
+    isMine: 1 //1为我的订单，0为客户订单
+  },
+
+  changeTab: function(e) {
+    this.setData({
+      currentTab: e.currentTarget.dataset.tab
+    })
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    this.setData({
+      currentTab: options.currentTab, 
+      isMine: options.isMine
+    })
   },
 
   /**

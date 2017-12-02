@@ -8,20 +8,20 @@
   <view class='block'>
     <view class='blocktitle'>我的订单</view>
     <view class='blockline flex'>
-      <view class='menu_item'>
-        <image class='menu_img' src='/images/personalCenter/待付款.png'></image>
+      <view class='menu_item' data-status='1' data-ismine='1' bindtap='orderList'>
+        <image class='menu_img' src='/images/personalCenter/waitforpay.png'></image>
         <view class='menu_title'>待付款</view>
       </view>
-      <view class='menu_item'>
-        <image class='menu_img' src='/images/personalCenter/待发货.png'></image>
+      <view class='menu_item' data-status='2' data-ismine='1' bindtap='orderList'>
+        <image class='menu_img' src='/images/personalCenter/waitforpost.png'></image>
         <view class='menu_title'>待发货</view>
       </view>
-      <view class='menu_item'>
-        <image class='menu_img' src='/images/personalCenter/待收货.png'></image>
+      <view class='menu_item' data-status='3' data-ismine='1' bindtap='orderList'>
+        <image class='menu_img' src='/images/personalCenter/completed.png'></image>
         <view class='menu_title'>待收货</view>
       </view>
-      <view class='menu_item' style='border-right: 0;'>
-        <image class='menu_img' src='/images/personalCenter/退货款.png'></image>
+      <view class='menu_item' style='border-right: 0;' data-status='7' data-ismine='1' bindtap='orderList'>
+        <image class='menu_img' src='/images/personalCenter/return.png'></image>
         <view class='menu_title'>退款/退货</view>
       </view>
     </view>
@@ -29,73 +29,73 @@
   <view class='block'>
     <view class='blocktitle'>客户订单</view>
     <view class='blockline flex'>
-      <view class='menu_item'>
-        <image class='menu_img' src='/images/personalCenter/待付款.png'></image>
+      <view class='menu_item' data-status='1' data-ismine='0' bindtap='orderList'>
+        <image class='menu_img' src='/images/personalCenter/waitforpay.png'></image>
         <view class='menu_title'>待付款</view>
       </view>
-      <view class='menu_item'>
-        <image class='menu_img' src='/images/personalCenter/待发货.png'></image>
+      <view class='menu_item' data-status='2' data-ismine='0' bindtap='orderList'>
+        <image class='menu_img' src='/images/personalCenter/waitforpost.png'></image>
         <view class='menu_title'>待发货</view>
       </view>
-      <view class='menu_item'>
-        <image class='menu_img' src='/images/personalCenter/待收货.png'></image>
+      <view class='menu_item' data-status='3' data-ismine='0' bindtap='orderList'>
+        <image class='menu_img' src='/images/personalCenter/completed.png'></image>
         <view class='menu_title'>待收货</view>
       </view>
-      <view class='menu_item' style='border-right: 0;'>
-        <image class='menu_img' src='/images/personalCenter/退货款.png'></image>
+      <view class='menu_item' style='border-right: 0;' data-status='7' data-ismine='0' bindtap='orderList'>
+        <image class='menu_img' src='/images/personalCenter/return.png'></image>
         <view class='menu_title'>退款/退货</view>
       </view>
     </view>
   </view>
-  <view class='block'>
+  <view class='block' style='margin-bottom: 0.2rem;'>
     <view class='blocktitle'>其他功能</view>
     <view class='blockline flex'>
-      <view class='menu_item'>
-        <image class='menu_img' src='/images/personalCenter/地址管理.png'></image>
+      <view class='menu_item' bindtap='addressManagement'>
+        <image class='menu_img' src='/images/personalCenter/addressmanagement.png'></image>
         <view class='menu_title'>地址管理</view>
       </view>
-      <view class='menu_item'>
-        <image class='menu_img' src='/images/personalCenter/我的钱包.png'></image>
+      <view class='menu_item' bindtap='orderList'>
+        <image class='menu_img' src='/images/personalCenter/mywallet.png'></image>
         <view class='menu_title'>我的钱包</view>
       </view>
-      <view class='menu_item'>
-        <image class='menu_img' src='/images/personalCenter/售后列表.png'></image>
+      <view class='menu_item' bindtap='serviceList'>
+        <image class='menu_img' src='/images/personalCenter/servicelist.png'></image>
         <view class='menu_title'>售后列表</view>
       </view>
-      <view class='menu_item' style='border-right: 0;'>
-        <image class='menu_img' src='/images/personalCenter/服务反馈.png'></image>
+      <view class='menu_item' style='border-right: 0;' bindtap='feedback'>
+        <image class='menu_img' src='/images/personalCenter/feedback.png'></image>
         <view class='menu_title'>服务反馈</view>
       </view>
     </view>
     <view class='blockline flex'>
       <view class='menu_item'>
-        <image class='menu_img' src='/images/personalCenter/客户列表.png'></image>
+        <image class='menu_img' src='/images/personalCenter/clientlist.png'></image>
         <view class='menu_title'>客户列表</view>
       </view>
-      <view class='menu_item'>
-        <image class='menu_img' src='/images/personalCenter/客户消息.png'></image>
-        <view class='menu_title'>客户消息</view>
+      <view class='menu_item' style='border-right-color: #fff;'>
+        <!-- <image class='menu_img' src='/images/personalCenter/clientmessage.png'></image>
+        <view class='menu_title'>客户消息</view> -->
       </view>
       <view class='menu_item' style='border-right-color: #fff;'></view>
       <view class='menu_item' style='border-right: 0;'></view>
     </view>
   </view>
-  <view class='block'>
+  <!-- <view class='block' style='margin-bottom: 0.2rem;'>
     <view class='blocktitle'>后台功能</view>
     <view class='blockline flex'>
       <view class='menu_item'>
-        <image class='menu_img' src='/images/personalCenter/今日待发.png'></image>
+        <image class='menu_img' src='/images/personalCenter/waitfordeliver.png.png'></image>
         <view class='menu_title'>今日待发</view>
       </view>
       <view class='menu_item'>
-        <image class='menu_img' src='/images/personalCenter/待收货.png'></image>
+        <image class='menu_img' src='/images/personalCenter/waitingforreceive.png'></image>
         <view class='menu_title'>待收货</view>
       </view>
       <view class='menu_item'>
-        <image class='menu_img' src='/images/personalCenter/已收货.png'></image>
+        <image class='menu_img' src='/images/personalCenter/complete.png'></image>
         <view class='menu_title'>已收货</view>
       </view>
       <view class='menu_item' style='border-right: 0;'></view>
     </view>
-  </view>
+  </view> -->
 </view>

@@ -1,10 +1,11 @@
-<view class="searchbar_view" hidden>
-  <view class="searchbar">
-    <image class="searchimg" src="/images/search_black.png"></image>
-    <input class="searchinput" placeholder="请输入搜索关键词" value="{{keywords}}" bindblur='setKeywords' bindconfirm="searchGoods" confirm-type="搜索"></input>
-    <view class="searchbutton" bindtap="searchGoods">搜索</view>
-  </view>
+<view class='searchbar flex'>
+  <image class='sortsearch' src='/images/search/class_white.png'></image>
+  <input class='search_input' placeholder='请输入搜索关键词'></input>
+  <image class='sortsearch' src='/images/search_white.png'></image>
 </view>
+
+<view class='placeholder_low' style='height: 2.15rem;'></view>
+
 <swiper indicator-dots="true" autoplay="true" interval="5000" duration="300" indicator-active-color="#f38200">
   <block wx:for="{{imgUrls}}">
     <swiper-item>
@@ -14,49 +15,49 @@
 </swiper>
 <view class="topline block" style="margin-top: 0;">
   <view class="topline_title">公司头条</view>
-  <view class="topline_content">热烈庆祝旺图思瑞网络商城正式上线！欢迎使用旺图思瑞微信小程序！</view>
+  <view class="topline_content">欢迎使用旺图思瑞微信小程序！</view>
 </view>
 
 <view class="classification block">
   <view class="class">
-    <image class="class_img" src="/images/class/01.png" mode='widthFix'></image>
-    <view class="class_title">分类</view>
+    <image class="class_img" src="/images/class/01.png" data-class='1' mode='widthFix' bindtap='productList'></image>
+    <view class="class_title">吊灯</view>
   </view>
   <view class="class">
-    <image class="class_img" src="/images/class/02.png" mode='widthFix'></image>
-    <view class="class_title">分类</view>
+    <image class="class_img" src="/images/class/02.png" data-class='2' mode='widthFix' bindtap='productList'></image>
+    <view class="class_title">吸顶灯</view>
   </view>
   <view class="class">
-    <image class="class_img" src="/images/class/03.png" mode='widthFix'></image>
-    <view class="class_title">分类</view>
+    <image class="class_img" src="/images/class/03.png" data-class='3' mode='widthFix' bindtap='productList'></image>
+    <view class="class_title">壁灯</view>
   </view>
   <view class="class">
-    <image class="class_img" src="/images/class/04.png" mode='widthFix'></image>
-    <view class="class_title">分类</view>
+    <image class="class_img" src="/images/class/04.png" data-class='4' mode='widthFix' bindtap='productList'></image>
+    <view class="class_title">台灯</view>
   </view>
   <view class="class">
-    <image class="class_img" src="/images/class/05.png" mode='widthFix'></image>
-    <view class="class_title">分类</view>
+    <image class="class_img" src="/images/class/05.png" data-class='5' mode='widthFix' bindtap='productList'></image>
+    <view class="class_title">落地灯</view>
   </view>
   <view class="class">
-    <image class="class_img" src="/images/class/06.png" mode='widthFix'></image>
-    <view class="class_title">分类</view>
+    <image class="class_img" src="/images/class/06.png" data-class='6' mode='widthFix' bindtap='productList'></image>
+    <view class="class_title">全铜</view>
   </view>
   <view class="class">
-    <image class="class_img" src="/images/class/07.png" mode='widthFix'></image>
-    <view class="class_title">分类</view>
+    <image class="class_img" src="/images/class/07.png" data-class='7' mode='widthFix' bindtap='productList'></image>
+    <view class="class_title">铁艺</view>
   </view>
   <view class="class">
-    <image class="class_img" src="/images/class/08.png" mode='widthFix'></image>
-    <view class="class_title">分类</view>
+    <image class="class_img" src="/images/class/08.png" data-class='8' mode='widthFix' bindtap='productList'></image>
+    <view class="class_title">锌合金</view>
   </view>
   <view class="class">
-    <image class="class_img" src="/images/class/09.png" mode='widthFix'></image>
-    <view class="class_title">分类</view>
+    <image class="class_img" src="/images/class/09.png" data-class='9' mode='widthFix' bindtap='productList'></image>
+    <view class="class_title">木艺</view>
   </view>
   <view class="class">
-    <image class="class_img" src="/images/class/10.png" mode='widthFix'></image>
-    <view class="class_title">分类</view>
+    <image class="class_img" src="/images/class/10.png" data-class='10' mode='widthFix' bindtap='productList'></image>
+    <view class="class_title">更多</view>
   </view>
 </view>
 

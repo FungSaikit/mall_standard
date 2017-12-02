@@ -4,14 +4,14 @@
   <view class='search_button'>搜索</view>
 </view>
 <view class='classificationbar'>
-  <view class='class class_selected'>全部</view>
-  <view class='class'>待付款</view>
-  <view class='class'>待发货</view>
-  <view class='class'>待收货</view>
-  <view class='class'>已收货</view>
-  <view class='class'>已完成</view>
-  <view class='class'>已关闭</view>
-  <view class='class'>退款/退货</view>
+  <view class='class {{currentTab==0?"class_selected":""}}' data-tab='0'>全部</view>
+  <view class='class {{currentTab==1?"class_selected":""}}' data-tab='1'>待付款</view>
+  <view class='class {{currentTab==2?"class_selected":""}}' data-tab='2'>待发货</view>
+  <view class='class {{currentTab==3?"class_selected":""}}' data-tab='3'>待收货</view>
+  <view class='class {{currentTab==4?"class_selected":""}}' data-tab='4'>已收货</view>
+  <view class='class {{currentTab==5?"class_selected":""}}' data-tab='5'>已完成</view>
+  <view class='class {{currentTab==6?"class_selected":""}}' data-tab='6'>已关闭</view>
+  <view class='class {{currentTab==7?"class_selected":""}}' data-tab='7'>退款/退货</view>
 </view>
 
 <view class='placeholder_top'></view>
